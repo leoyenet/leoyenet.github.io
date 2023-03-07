@@ -84,8 +84,8 @@ function start_cut() {
 
     console.log(code)
     insertText(code.replaceAll("\n", "<br>"))
-
 }
+
 function make_circle() {
     insertHeader("Circle")
     const length = Number(prompt("length"))
@@ -104,4 +104,3 @@ function make_circle() {
     console.log(code)
     insertText(code.replaceAll("\n", "<br>"))
 }
-
