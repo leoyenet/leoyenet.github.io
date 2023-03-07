@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+.frame-1 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64070fe9f0463323c5e2541e/releases/64078e7023bd522dedf89706/img/group-1.png);
+  background-size: 100% 100%;
+  border: 1px none;
+  display: flex;
+  height: 658px;
+  min-width: 1165px;
+  padding: 7px 6px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.group-2 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 951px;
+  margin-top: 507px;
+  min-width: 202px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  background-color: 
+#003afc;
+  border: 4px solid;
+  border-color: var(--black);
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 
+#0000005c;
+  display: flex;
+  min-width: 200px;
+}
+
+.title {
+  color: 
+#ffffff;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 137px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -4px;
+  margin-top: -4px;
+  text-align: center;
+  width: 200px;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
