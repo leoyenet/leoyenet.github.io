@@ -1,15 +1,15 @@
-function insertText(text) {
+const insertText = (text) => {
     const paragraph = document.querySelector('#code');
 
     paragraph.innerHTML = text;
 }
 
-function insertHeader(text) {
+const insertHeader = (text) => {
     const header = document.querySelector('#head');
     header.innerHTML = text;
 }
 
-function beginning() {
+const beginning = () => {
     insertHeader("Beginning")
     let tool = prompt("Tool type").toUpperCase()
     let trans_x = prompt("Trans x")
@@ -26,7 +26,7 @@ function beginning() {
     // return code
 }
 
-function question() {
+const question = () => {
     const ask = prompt("is l=w (type Y or N)").toUpperCase()
     if (ask == "N") {
         const length_1 = Number(prompt("Length-1"))
@@ -44,7 +44,7 @@ function question() {
     }
 }
 
-function stair() {
+const stair = () => {
     insertHeader("Stair")
     const length = Number(prompt("length")) //question()
     const distance = Number(prompt("distance"))
@@ -66,7 +66,7 @@ function stair() {
     insertText(code.replaceAll("\n", "<br>"))
 }
 
-function start_cut() {
+const start_cut = () => {
     insertHeader("Starting cut")
 
     const code =
@@ -86,7 +86,7 @@ function start_cut() {
     insertText(code.replaceAll("\n", "<br>"))
 }
 
-function make_circle() {
+const make_circle = () => {
     insertHeader("Circle")
     const length = Number(prompt("length"))
     // const distance = Number(prompt("distance"))
