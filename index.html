@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cnc</title>
-    <script src="cnc.js"></script>
-<style>
-    img {
-        align-items: center;
-    }
-    html {
-        background-color: rgb(39, 39, 39);
-    }p {
-        color: aqua;
-    }
-</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Cnc</title>
+        <script src="cnc.js"></script>
+
+        
 </head>
     <body>
         <!-- <form class="frame-1screen" name="form1" action="form1" method="post">
@@ -31,17 +24,25 @@
 
 
         <div>
-            <img src="Group 1.png" alt="Not working">
+            <img class="center row" src="Group 1.png" alt="cnc mill Workspace">
+
         </div>
-        <h1 id="head"></h1>
-
-        <button onclick="beginning()">Beginning</button>
-        <button onclick="stair()">Stair</button>
-        <button onclick="start_cut()">Starting cut</button>
-        <button onclick="make_circle()">Make circle</button>
-        <p id="code">...</p>
-
-        <script src="cnc.js"></script>
+        <div class="center pd1">
+            
+            <h1 id="head"></h1>
+            <div id="button" class="row">
+                <button id="btn"  onclick="beginning()" >Beginning</button>
+                <button id="btn"  onclick="stair()" >Stair</button>
+                <button id="btn"  onclick="start_cut()" >Starting cut</button>
+                <button id="btn"  onclick="make_circle()"   >Make circle</button>
+                <button id="btn"  onclick=""    >Something</button>
+                <button id="btn"  onclick=""    >Something</button>
+            </div>
+            <br>
+            <br>
+            <button class="" id="btn2" onclick="copyElementText('code')">📋 Copy</button>
+            <p class="right-side-header" id="code">...</p>
+        </div>        
     
     </body>
 </html>
