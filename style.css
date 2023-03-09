@@ -24,9 +24,11 @@ html {
     color: aliceblue;
     text-align: center;
 }
+
 .center_text {
     text-align: center;
 }
+
 #btn {
     background-color: #75c4ff;
     color: beige;
@@ -38,6 +40,7 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 
 }
+
 #btn2 {
     background-color: #23272e;
     color: beige;
@@ -58,6 +61,7 @@ html {
     display: table;
     clear: both;
     }
+    
 #button {
     /* width: fit-content; */
     height: 30px;
