@@ -3,7 +3,7 @@ img {
     align-items: center;
 }
 html {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(20,20,20);
 }p {
     color: aliceblue;
 }
@@ -15,7 +15,7 @@ html {
 }
 
 .pd1 {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(20,20,20);
     /* overflow-y: auto; */
     padding: 10%;
 }
@@ -38,17 +38,25 @@ html {
     letter-spacing: 1px;
     font-size: 19px;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
+#button:hover{
+    opacity: 1;
+}
+
+#button:hover > #btn:hover{
+    opacity: 0.9;
+}
+
+
 #btn2 {
-    background-color: #23272e;
+    background-color: rgb(40, 40, 40);
     color: beige;
     border-radius: 5px;
     height: 45px;
     display: block;
     margin-left: 100%;
-    border-color: rgb(209, 128, 255);
+    border-color: rgb(227, 177, 255);
 }
 
 .column {
@@ -57,12 +65,37 @@ html {
     }
 
 .row:after {
-    content: ""; 
+    content: "";
     display: table;
     clear: both;
     }
     
 #button {
     /* width: fit-content; */
-    height: 30px;
+    height: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+#nav-bar #a {
+    color: white;
+    font-size: clamp(2rem, 2vw, 2rem);
+    font-family: "Ibarra Real Nova", serif;
+    display: flex;
 }
