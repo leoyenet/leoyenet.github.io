@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style_cnc.css">
+    <link rel="icon" href="">
+    <title>Cnc</title>
+    <script src="static/cnc.js"></script>
+
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav-bar">
+            <ul id="nav-bar">
+                <li class="li"><a id="a" href="homepage.html">Home</a></li>
+                <li class="li"><a id="a" href="index_cnc.html">CNC</a></li>
+                <!-- <li class="li"><a id="a" href="#">About</a></li>
+                <li class="li"><a id="a" href="#">Contact</a></li> -->
+                <li class="lih"><a id="a" class="help" onclick="help()">Help</a></li>
+            </ul>
+        </div>
+        <div>
+            <img id="cnc-img" class="center" src="content/Group 1.png" alt="cnc mill Workspace">
+        </div>
+
+        <div class="center pd1 ">
+            <div id="buttons">
+                <div id="button">
+                    <button id="btn" onclick="beginning()">Beginning</button>
+                    <button id="btn" onclick="stair()">Stair</button>
+                    <button id="btn" onclick="start_cut()">Starting cut</button>
+                    <button id="btn" onclick="make_circle()">Make circle</button>
+                    <button id="btn" onclick="">Something</button>
+                </div>
+                
+                
+                <button id="btn2" onclick="copyElementText('code')">📋 Copy</button>
+            </div>
+            <p  class="" id="code"></p>
+        </div>
+    </div>
+</body>
+
+</html>
