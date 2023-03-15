@@ -13,8 +13,8 @@ const beginning = () => {
     const code = 
             `G54
             TRANS X${trans_x} Y${trans_y} Z${trans_z}
-            G94 S500 F200 M3
             ${tool} M5
+            G94 S500 F200 M3
             `
     console.log(code)
     insertText(code.replaceAll("\n", "<br>"))
